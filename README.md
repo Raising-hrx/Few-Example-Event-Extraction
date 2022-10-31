@@ -14,7 +14,21 @@ The repo for ["Learning Event Extraction From a Few Guideline Examples"](https:/
 
 The data format are in the [OneIE](https://github.com/vinitrinh/event-extraction-oneie) data format.
 
+# Code
 
+## Knowledge-Guided Data Augmentation
+
+1. Run ```pip install -r code/requirements.txt```
+
+2. Download [ProBase](https://www.microsoft.com/en-us/research/project/probase/) and set ```parobase_path``` in ```code/KGDA.py```
+
+3. Run the knowledge-guided data augmentation as follow:
+
+```
+python code/KGDA.py
+--src_files [path to ACE-guideline data]  \
+--target_file [dir of save augmented ACE-guideline data] 
+```
 
 # Citation
 ```
