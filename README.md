@@ -20,8 +20,7 @@ The data format are in the [OneIE](https://github.com/vinitrinh/event-extraction
 
 2. Download [ProBase](https://www.microsoft.com/en-us/research/project/probase/) and set ```probase_path``` in ```code/KGDA.py```
 
-3. Run the knowledge-guided data augmentation as follow:
-
+3. Run the knowledge-guided data augmentation:
 ```
 python code/KGDA.py
 --src_files [path to ACE-guideline data]  \
