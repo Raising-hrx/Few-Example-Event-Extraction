@@ -14,13 +14,11 @@ The repo for ["Learning Event Extraction From a Few Guideline Examples"](https:/
 
 The data format are in the [OneIE](https://github.com/vinitrinh/event-extraction-oneie) data format.
 
-# Code
-
-## Knowledge-Guided Data Augmentation
+# Code: Knowledge-Guided Data Augmentation
 
 1. Run ```pip install -r code/requirements.txt```
 
-2. Download [ProBase](https://www.microsoft.com/en-us/research/project/probase/) and set ```parobase_path``` in ```code/KGDA.py```
+2. Download [ProBase](https://www.microsoft.com/en-us/research/project/probase/) and set ```probase_path``` in ```code/KGDA.py```
 
 3. Run the knowledge-guided data augmentation as follow:
 
@@ -33,19 +31,19 @@ python code/KGDA.py
 # Citation
 ```
 @article{DBLP:journals/taslp/HongZYZ22,
-  author    = {Ruixin Hong and
-               Hongming Zhang and
-               Xintong Yu and
-               Changshui Zhang},
-  title     = {Learning Event Extraction From a Few Guideline Examples},
-  journal   = {{IEEE} {ACM} Trans. Audio Speech Lang. Process.},
-  volume    = {30},
-  pages     = {2955--2967},
-  year      = {2022},
-  url       = {https://doi.org/10.1109/TASLP.2022.3202123},
-  doi       = {10.1109/TASLP.2022.3202123},
-  timestamp = {Tue, 18 Oct 2022 22:17:28 +0200},
-  biburl    = {https://dblp.org/rec/journals/taslp/HongZYZ22.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+    author    = {Ruixin Hong and
+                Hongming Zhang and
+                Xintong Yu and
+                Changshui Zhang},
+    title     = {Learning Event Extraction From a Few Guideline Examples},
+    journal   = {{IEEE} {ACM} Trans. Audio Speech Lang. Process.},
+    volume    = {30},
+    pages     = {2955--2967},
+    year      = {2022},
+    url       = {https://doi.org/10.1109/TASLP.2022.3202123},
+    doi       = {10.1109/TASLP.2022.3202123},
+    timestamp = {Tue, 18 Oct 2022 22:17:28 +0200},
+    biburl    = {https://dblp.org/rec/journals/taslp/HongZYZ22.bib},
+    bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
